@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karamagi.holysong"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_hs"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.karamagi.holysong.SplashScreenActivity"
+            android:label="@string/app_name" 
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:icon="@drawable/launcher"
+            android:name="com.karamagi.holysong.HomeActivity"
+            android:theme="@style/Theme.HolysongsHome" />
+        <activity 
+            android:icon="@drawable/launcher"
+            android:name="com.karamagi.holysong.MainActivity"
+            android:theme="@style/Theme.Holysongs" />
+    </application>
+
+</manifest>

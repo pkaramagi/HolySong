@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Holysongs" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_holysongs</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Holysongs</item>
+        <item name="android:textColor">@android:color/white</item>
+         <item name="homeAsUpIndicator">@drawable/home_as_up</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Holysongs</item>
+        <item name="android:listViewStyle">@style/Theme.Holysongs.ListViewStyle</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Holysongs</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Holysongs</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Holysongs</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_holysongs</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_holysongs</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Holysongs</item>
+		<item name="titleTextStyle">@style/Widget.Holysongs.TitleTextStyle</item>
+        
+    </style>
+    
+      <style name="Theme.HolysongsHome" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_holysongs</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Holysongs</item>
+        <item name="android:textColor">@android:color/black</item>
+         <item name="homeAsUpIndicator">@drawable/home_as_up</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Holysongs</item>
+        <item name="android:listViewStyle">@style/Theme.HolysongsHome.ListViewStyle</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Holysongs</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Holysongs</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Holysongs</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_holysongs</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_holysongs</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Holysongs</item>
+		<item name="titleTextStyle">@style/Widget.Holysongs.TitleTextStyle</item>
+        
+    </style>
+
+    <style name="ActionBar.Solid.Holysongs" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_holysongs</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_holysongs</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_holysongs</item>
+        <item name="progressBarStyle">@style/ProgressBar.Holysongs</item>
+	    <item name="titleTextStyle">@style/Widget.Holysongs.TitleTextStyle</item>
+	      <item name="subtitleTextStyle">@style/Widget.Holysongs.TitleTextStyle</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Holysongs" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_holysongs</item>
+        <item name="progressBarStyle">@style/ProgressBar.Holysongs</item>
+        <item name="titleTextStyle">@style/Widget.Holysongs.TitleTextStyle</item>
+         <item name="subtitleTextStyle">@style/Widget.Holysongs.TitleTextStyle</item>
+
+       
+    </style>
+	
+    <style name="PopupMenu.Holysongs" parent="@style/Widget.Sherlock.Light.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holysongs</item>	
+    </style>
+	
+    <style name="DropDownListView.Holysongs" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_holysongs</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Holysongs" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_holysongs</item>
+    </style>
+	
+    <style name="DropDownNav.Holysongs" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_holysongs</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holysongs</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_holysongs</item>
+    </style>
+    
+    <style name="ProgressBar.Holysongs" parent="@style/Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holysongs</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Holysongs" parent="@style/Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_holysongs</item>
+    </style>
+    
+     <style name="Widget.Holysongs.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Holysongs.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Holysongs</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Holysongs</item>
+    </style>
+	<style name="Theme.Holysongs.ListViewStyle" parent="@android:style/Widget.ListView">
+    	<item name="android:background">@drawable/list_view_background</item>
+		<item name="android:divider">@drawable/list_view_divider</item>
+		<item name="android:dividerHeight">1px</item>
+    </style>
+    
+    <style name="Theme.HolysongsHome.ListViewStyle" parent="@android:style/Widget.ListView">
+    	<item name="android:background">@drawable/list_view_background_white</item>
+		<item name="android:divider">@drawable/list_view_divider_white</item>
+		<item name="android:dividerHeight">1px</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+   
+
+    <!-- Application theme. -->
+    
+    <style name="SplashTheme" parent="android:Theme">
+    	<item name="android:windowDisablePreview">true</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowContentOverlay">@null</item>
+    	<item name="android:windowBackground">@drawable/splash_screen_bg</item>
+    	
+	</style>    
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HolySongs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_screen_description">Splash Screen</string>
+	<string-array name="holysongs">
+	    <item>Blessing of Glory</item>
+	    <item>Grace of the Holy Garden</item>
+	    <item>New Song of Inspiration</item>
+	    <item>Garden of Restoration</item>
+	    <item>Spring Song of Eden</item>
+	    <item>Song of the Victors</item>
+	    <item>Song of the Spring Breeze</item>
+	    <item>Oh, My Little Lambs</item>
+		<item>The Lord Has Come</item>
+		<item>My Offering</item>
+		<item>Unite Into One</item>
+		<item>Song of the Young People</item>
+		<item>Call to Sacrifice</item>
+		<item>The Principle Youth March</item>
+		<item>March of the New Age</item>
+		<item>Song of Heavenly Soldiers</item>
+		<item>Unified Soldiers</item>
+		<item>Light in the East</item>
+		<item>Song of Victory</item>
+		<item>My Promise</item>	
+		<item>Suffering</item> 
+		<item>Suffering Jesus </item>
+		<item>Suffering Heart </item>
+		<item>Heart of the Father </item>
+		<item>Pledge </item>
+		<item>The Father\'s Dwelling Place </item> 
+		<item>Song of the Garden </item>
+		<item>Shining Fatherland </item>
+		<item>He Has Called Me </item>
+		<item>O, My Child Come Home Again </item> 
+		<item>My Cross </item>
+		<item>O Come, My Lord </item>
+		<item>By the Spring of Life </item>
+		<item>When I Behold the Lord </item>
+		<item>Day of Glory </item>
+		<item>Song of the Banquet </item>
+		<item>Our Forefathers </item>
+		<item>Light of Grace </item>
+		<item>Tan Shim Ga </item>
+		<item>Urie So Wonun Tongil </item>
+	</string-array>
+</resources>
